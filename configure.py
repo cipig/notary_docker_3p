@@ -354,8 +354,6 @@ def create_confs(server="3p", coins_list=None):
             conf.write(f'rpcuser={rpcuser}\n')
             conf.write(f'rpcpassword={rpcpass}\n')
             conf.write('txindex=1\n')
-            conf.write('addressindex=1\n')
-            conf.write('spentindex=1\n')
             conf.write('server=1\n')
             conf.write('daemon=1\n')
             conf.write('rpcworkqueue=256\n')
