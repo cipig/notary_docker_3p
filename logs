@@ -2,8 +2,8 @@
 
 if [ -z "$1" ]
   then
-    docker compose logs -f --tail=20
+    docker-compose logs -f --tail=20
   else
-    docker compose logs -f --tail=20 $1
+    docker-compose logs -f --tail=20 $1
 fi
 
